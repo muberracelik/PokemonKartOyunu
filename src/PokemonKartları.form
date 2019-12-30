@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace pref="680" max="32767" attributes="0"/>
+              <Component id="Kullanıcı1" min="-2" pref="272" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="600" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
+                      <Component id="oyuncu1scor" min="-2" pref="125" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                      <Component id="deste" min="-2" pref="200" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="oyuncu2scor" min="-2" pref="143" max="-2" attributes="0"/>
+                          <Component id="destedenCek" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="k1kart1" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="k2kart1" min="-2" pref="200" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="kullanıcı2" min="-2" pref="272" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="k1kart2" min="-2" pref="200" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                                      <Component id="k1kart3" min="-2" pref="200" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="k2kart2" min="-2" pref="200" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="k2kart3" min="-2" pref="200" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="kartAt" min="-2" pref="93" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="kartlariAc1" max="32767" attributes="0"/>
+                                  <Component id="kartAc" max="32767" attributes="0"/>
+                                  <Component id="kartlariAc2" min="-2" pref="93" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                      <Component id="ortakart1" min="-2" pref="200" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="157" max="-2" attributes="0"/>
+                      <Component id="ortakart2" min="-2" pref="200" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="Kullanıcı1" min="-2" pref="41" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="k1kart2" alignment="1" min="-2" pref="286" max="-2" attributes="0"/>
+                              <Component id="k1kart1" min="-2" pref="286" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="k1kart3" alignment="3" min="-2" pref="286" max="-2" attributes="0"/>
+                              <Component id="kartlariAc1" alignment="3" min="-2" pref="43" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="kartAc" alignment="3" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="kartAt" alignment="3" min="-2" pref="43" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="k2kart3" alignment="3" min="-2" pref="286" max="-2" attributes="0"/>
+                          <Component id="kartlariAc2" alignment="3" min="-2" pref="43" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="130" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="ortakart2" alignment="3" min="-2" pref="286" max="-2" attributes="0"/>
+                                  <Component id="ortakart1" alignment="3" min="-2" pref="286" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="oyuncu1scor" min="-2" pref="31" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
+                              <Component id="deste" min="-2" pref="286" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="destedenCek" min="-2" pref="43" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="k2kart1" alignment="3" min="-2" pref="286" max="-2" attributes="0"/>
+                              <Component id="oyuncu2scor" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="k2kart2" min="-2" pref="286" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Component id="kullanıcı2" pref="31" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="Kullan&#x131;c&#x131;1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Oyuncu1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="kullan&#x131;c&#x131;2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Oyuncu2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="k1kart1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="k1kart1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="k1kart2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="k1kart2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="k1kart3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="k1kart3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="k2kart1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="k2kart1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="k2kart1MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="k2kart2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="k2kart2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="k2kart2MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="k2kart3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="k2kart3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="k2kart3MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ortakart1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="orta1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ortakart2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="orta2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="deste">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="deste"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="kartlariAc1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kartlar&#x131; A&#xe7;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kartlariAc1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="kartAc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kart A&#xe7;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kartAcActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="kartlariAc2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kartlar&#x131; A&#xe7;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kartlariAc2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="oyuncu2scor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="         oyuncu2scor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="oyuncu1scor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="       oyuncu1scor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="kartAt">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kart At"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kartAtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="destedenCek">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Desteden Cek"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="destedenCekActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
